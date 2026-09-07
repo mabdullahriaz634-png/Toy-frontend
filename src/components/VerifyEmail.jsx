@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
-import { API } from "../api";
+import { API } from "../Api";
 
 export default function VerifyEmail() {
   const [status, setStatus] = useState("loading"); // loading, success, error
