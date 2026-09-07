@@ -7,7 +7,7 @@ import { CirclePlus, CircleMinus } from 'lucide-react';
 import ShippingSection from './Shippingmethod';
 import PlaceOrder_Loader from './PlaceOrderLoader';
 
-const CheckoutPage = () => {
+function CheckoutPage() {
   const [loading, setLoading] = useState(false)
   // const [cartItems, setCartItems] = useState([
   //   {

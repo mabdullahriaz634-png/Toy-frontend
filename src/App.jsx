@@ -12,7 +12,6 @@ import SignupPage from './components/Signup';
 import Login from './components/Login'
 import ResetPassword from './components/ResetPassword';
 import CartSidebar from './components/CartSideBar';
-import CheckoutPage from './components/checkOut';
 import UserDashboard from './components/MainUserDashboard';
 import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
@@ -30,6 +29,7 @@ import AdminCustomers from "./components/AdminFolder/AdminCustomers";
 import AdminMainLayout from './components/AdminFolder/AdminMainLayout';
 import AdminProtected from './components/AdminFolder/AdminProtected';
 import AdminOrderDetailPage from './components/AdminFolder/AdminOrderDetail';
+import CheckoutPage from './components/checkOut';
 
 
 function App() {
@@ -42,7 +42,7 @@ function App() {
         <Route path='/' element={<MainLayout />} >
           <Route index element={<Home />} />
           <Route path='/detail/:id' element={<ProductDetail />} />
-          <Route path='/checkout' element={<CheckoutPage />} />
+          <Route path='/checkout' element={<CheckoutPage/>} />
           <Route path='/signup' element={<SignupPage />} />
           <Route path='/verify-email' element={<VerifyEmail />} />
           <Route path='/forgotpassword' element={<ResetPassword />} />
