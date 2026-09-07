@@ -29,7 +29,7 @@ import AdminCustomers from "./components/AdminFolder/AdminCustomers";
 import AdminMainLayout from './components/AdminFolder/AdminMainLayout';
 import AdminProtected from './components/AdminFolder/AdminProtected';
 import AdminOrderDetailPage from './components/AdminFolder/AdminOrderDetail';
-import CheckoutPage from './components/checkOut';
+import CheckoutPage from './components/Checkout';
 
 
 function App() {
