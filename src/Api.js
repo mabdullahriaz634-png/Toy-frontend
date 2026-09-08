@@ -1,11 +1,11 @@
 import axios from "axios";
 
 export const API = axios.create({
-    baseURL: "http://localhost:5000/api"
+    baseURL: "https://toy-backend-api.vercel.app/api"
 });
 
 export const authAPI = axios.create({
-    baseURL: "http://localhost:5000/api"
+    baseURL: "https://toy-backend-api.vercel.app/api"
 });
 
 authAPI.interceptors.request.use((config) => {
